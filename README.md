@@ -10,8 +10,9 @@ Please check available tags and have fun.
 
 
 #Changelog
-- Tags **v1.0** to **v4.0** use nginx as a docker container image
 - Tags **v4.1** and **latest**, were re-written switching to Alpine 3.4 and Nginx 1.11.5 compiled from source, In this way Docker container image hosted on Quay.io it's only 8MB now.
+- Tags **v1.0** to **v4.0** use nginx as a docker container image (68MB)
+ 
 
 
 
