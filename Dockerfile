@@ -16,7 +16,7 @@ RUN apk --update add openssl-dev pcre-dev zlib-dev wget build-base && \
         --prefix=/etc/nginx \
         --http-log-path=/var/log/nginx/access.log \
         --error-log-path=/var/log/nginx/error.log \
-        –-conf-path=/etc/nginx \
+        –-conf-path=/etc/nginx/nginx.conf \
         --sbin-path=/usr/local/sbin/nginx && \
        
     make && \
