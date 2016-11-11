@@ -16,7 +16,7 @@ RUN apk --update add openssl-dev pcre-dev zlib-dev wget build-base && \
         --prefix=/etc/nginx \
         --http-log-path=/var/log/nginx/access.log \
         --error-log-path=/var/log/nginx/error.log \
-        –-conf-path=/etc/nginx/nginx.conf \
+        # –-conf-path=/etc/nginx/nginx.conf \
         --sbin-path=/usr/local/sbin/nginx && \
        
     make && \
@@ -30,7 +30,7 @@ RUN ln -sf /dev/stdout /var/log/nginx/access.log
 RUN ln -sf /dev/stderr /var/log/nginx/error.log
 VOLUME ["/var/log/nginx"]
 WORKDIR /etc/nginx
-COPY nginx.conf /etc/nginx/nginx.conf
+COPY nginx.conf /etc/nginx/conf/
 ADD src/ /var/www 
 EXPOSE 80 443
 
