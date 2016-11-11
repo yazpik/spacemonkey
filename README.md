@@ -1,6 +1,7 @@
 # Spacemonkey
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Docker Repository on Quay](https://quay.io/repository/yazpik/spacemonkey/status "Docker Repository on Quay")](https://quay.io/repository/yazpik/spacemonkey)
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badge/)  
 
 A very basic Nginx server for kubernetes testing purposes.
 This image was built for a kubernetes demo using replication controllers/Deployments changing the image live from v1 to v2 or latest in to the kubernetes cluster.
