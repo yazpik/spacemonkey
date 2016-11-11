@@ -3,14 +3,16 @@
 [![Docker Repository on Quay](https://quay.io/repository/yazpik/spacemonkey/status "Docker Repository on Quay")](https://quay.io/repository/yazpik/spacemonkey)
 
 A very basic Nginx server for kubernetes testing purposes.
+This image was built for a kubernetes demo using replication controllers/Deployments changing the image live from v1 to v2 or latest in to the kubernetes cluster.
+Educational only, not use in production.
+Please check available tags and have fun.
+
 
 #Changelog
 -Tags v1.0 to v4.0 use nginx as a docker container image
 -Tags v4.1 and latest, were re-written switching to Alpine 3.4 and Nginx 1.11.5 compiled from source, In this way Docker container image hosted on Quay.io it's only 8MB now.
 
-This image was built for a kubernetes demo using replication controllers/Deployments changing the image live from v1 to v2 or latest in to the kubernetes cluster.
-Educational only, not use in production.
-Please check available tags and have fun.
+
 
 
 
