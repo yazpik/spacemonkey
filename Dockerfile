@@ -1,5 +1,4 @@
 FROM alpine:3.4
-
 MAINTAINER Francisco Moctezuma <yazpik@gmail.com>
 
 ENV NGINX_VERSION nginx-1.11.5
