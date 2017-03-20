@@ -24,7 +24,7 @@ RUN apk --update add openssl-dev pcre-dev zlib-dev wget build-base && \
     rm -rf /tmp/src && \
     rm -rf /var/cache/apk/*
 
-#  forward request and error logs to docker log collector
+# error logs to docker log collector
 RUN ln -sf /dev/stdout /var/log/nginx/access.log
 RUN ln -sf /dev/stderr /var/log/nginx/error.log
 VOLUME ["/var/log/nginx"]
