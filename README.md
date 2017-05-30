@@ -6,7 +6,7 @@
 A very basic Nginx server for kubernetes testing purposes.
 This image was built for a kubernetes demo using replication controllers/Deployments changing the image live from v1 to v2 or latest in to the kubernetes cluster.
 Educational only, not use in production.
-Please check available tags and have fun.
+Please check available tags and have fun :).
 
 
 #Changelog
