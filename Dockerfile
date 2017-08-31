@@ -1,7 +1,7 @@
-FROM alpine:3.4
+FROM alpine:3.5
 MAINTAINER Francisco Moctezuma <yazpik@gmail.com>
 
-ENV NGINX_VERSION nginx-1.11.8
+ENV NGINX_VERSION nginx-1.11.11
 
 RUN apk --update add openssl-dev pcre-dev zlib-dev wget build-base && \
     mkdir -p /tmp/src && \
